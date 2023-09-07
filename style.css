@@ -1,0 +1,39 @@
+body{
+background-image: url('fund.svg');
+    background-size: 1800px;
+    color: aliceblue;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25pt;
+}
+
+header{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 580px;
+
+}
+
+section{
+    background-color: rgb(255, 255, 255);
+    color: rgb(48, 47, 47);
+    padding: 10px;
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+}
+h2{
+    font: size 40px;
+    color: rgb(211, 193, 29);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.timer{
+    display: grid;
+    grid-auto-flow: column;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+p{
+    font-family: cursive;
+}
